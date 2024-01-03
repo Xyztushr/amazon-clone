@@ -1,0 +1,58 @@
+@media (max-width:800px){
+    .navbar{
+      width: 100%;
+    } 
+    .peo{
+      display: none;
+    }
+    .navbar .searchbox i{
+    display: none;
+    }
+    .navbar .menu i {
+      font-size: 28px;
+     }
+     .searchbox{
+      display: none;
+     }
+     .searchbox i{
+      display: none;
+    }
+    .searchbox input{
+      display: none;
+    }
+    .loca{
+      display: none;
+    }
+    .loca .locaup{
+      display: none;
+    }
+    .loca .ri-map-pin-2-line{
+      display: none;
+    }
+    .searchbox #sel{
+      display: none;
+      }
+      .main{
+        display: none;
+      }     
+        .navbar2 i {
+          display: none;
+        }
+      .navbar2{
+        font-size: 13px;
+      } 
+      #message{
+        display: none;
+      }
+    }
+    @media (max-width:500px){
+      #c1{
+        flex-direction: column;
+      }
+      #c2{
+        flex-direction: column;
+      }
+      .Footer-1 h3{
+        visibility: collapse;
+    }
+}

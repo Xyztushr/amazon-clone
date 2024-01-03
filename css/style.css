@@ -1,0 +1,241 @@
+*{
+    font-family: ' amazon', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: amazon ;
+    src: url(./AmazonEmber_rg.ttf);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.ri-menu-add-fill span{
+    padding: 0px 10px;
+}
+.navbar{
+    padding: 30px;
+    width: 100%;
+    height: 10vh;
+    background-color: #131921;
+    color: white;
+}
+.navbar img{
+    width: 100px;
+}
+.navbar{
+    /* font-family: 'Roboto', sans-serif; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .searchbox i{
+    font-size: 30px;
+    width: 36px;
+    height: 36px;
+    color: black;
+    background-color:#f3a847;
+    border-radius:  0px 3px 3px 0px;
+}
+.navbar .searchbox input{
+    font-size: 15px;
+    width: 40vw;
+    height: 36px;
+}
+.navbar2{
+    width: 100%;
+    height: 6vh;
+    background-color: #232f3e;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+.as{
+    padding: 0px 10px;
+}
+.ri-arrow-right-s-line{
+    font-size: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox #sel{
+    width: 4vw;
+    height: 36px;
+    border: none;
+    border-radius: 3px 0px 0px 3px ;
+}
+.cart i{
+    font-size: 28px;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: #e3e6e6;
+}
+.peo .ri-user-3-fill{
+    font-size: 23px;
+}
+.page1{
+    width: 100%;
+    background-color: #e3e6e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+.im{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.s{
+    padding: 30px;
+    margin: 4px;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+.loca{
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 .s {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.s img{
+    margin: auto;
+    width: 300px;
+    cursor: pointer;
+}
+.page1 .s h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.page1 .s a{
+    padding: 20px 0px;
+    text-decoration: none;
+}
+.page1 .s a:hover{
+    color: #f3a847;
+}
+.navbar2 i{
+    color: white;
+    font-size: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.Footer-1 h4{
+    font-weight: 400;
+}
+.Footer-1{
+    color: white;
+    width: 100%;
+    height: 55px;
+    background: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.Footer-1:hover{
+    background: #48586c;
+}
+.Footer-2 h3{
+    font-weight: 500;
+    color: #fcf9f9;
+    padding: 10px 0px;
+}
+.Footer-2 h5{
+    padding: 4px 0px;
+    font-weight: 300;
+    color: #dcdcdc;
+}
+.Footer-2 h5:hover{
+    color: #bdbdbd;
+    cursor: pointer;
+}
+.Footer-2{
+    font-family: 'Roboto', sans-serif;
+    background-color: #232f3e;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 20px;
+}
+#c1 h3{
+    margin-top: 10px;
+}
+#c2 h3{
+    margin-top: 10px;
+}
+#c1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-self: start;
+}
+#c2{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    align-self: start;
+    
+}
+.footer-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color:#131a22;
+    /* font-family: 'Roboto', sans-serif; */
+}
+#message a:hover{
+    color: #f3a847;
+}
+.im{
+   padding: 10px 0px;
+}
+#message{
+    font-size: 1.2vw;
+    text-align: center;
+    margin: auto;
+    width: 88vw;
+    padding: 5px;
+    height: 25px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.peo H6{
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight:400;
+}
+.peo H5{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight:500;
+}
